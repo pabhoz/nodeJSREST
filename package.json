@@ -1,11 +1,16 @@
 {
-  "name": "restserver",
+  "name": "noderestserver",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "rest"
+  ],
   "author": "pabhoz",
   "license": "MIT",
   "dependencies": {

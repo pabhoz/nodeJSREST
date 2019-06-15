@@ -10,8 +10,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json());
 
-//Carga de rutas
-app.use(require('./routes/index'));
+app.use(require('./routes/user'));
 
 app.listen(port, function () {
   console.log(`Server is running at http://localhost:${port}`);
